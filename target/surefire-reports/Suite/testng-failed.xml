@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="10" verbose="0" name="iOSTest | Huseyin - iPhone SE(failed)" parallel="tests">
+    <parameter name="udid" value="ff0aa048ab936447e8c9eef7635be6a2f8928772"/>
+    <classes>
+      <class name="Tests.secondTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testUntitled"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Tests.secondTest -->
+    </classes>
+  </test> <!-- iOSTest | Huseyin - iPhone SE(failed) -->
+</suite> <!-- Failed suite [Suite] -->

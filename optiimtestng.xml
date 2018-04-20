@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<test name="iOSTest | Huseyin - iPhone SE">
+<parameter name="udid" value="ff0aa048ab936447e8c9eef7635be6a2f8928772"/>
+            <classes>
+                <class name="Tests.secondTest"/>
+            </classes>
+        </test>
+</suite>
