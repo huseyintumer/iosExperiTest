@@ -2,14 +2,14 @@
 
 <suite name="Suite">
 
-    <!--
+    
     <test name="AndroidTest">
         <parameter name="udid" value="LGM250ZL4HWSSKFQAY" />
         <classes>
             <class name="Tests.firstTest"/>
         </classes>
     </test>
-    -->
+    
 
         <test name="iOSTest">
             <parameter name="udid" value="ff0aa048ab936447e8c9eef7635be6a2f8928772" />
